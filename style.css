@@ -1,0 +1,272 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+.now{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.firstheading{
+  
+    color: rgb(15, 211, 169);
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+   text-align:right;
+    font-size: 70px;
+    text-align: justify;
+}
+.nowtwo{
+    width: 100%;
+    height: fit-content;
+
+    background-color: black;
+}
+.para{
+    color: white;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnn{
+
+   
+    height: 50px;
+    color: black;
+    background-color:white ;
+    font-weight: bold;
+    
+}
+
+.btnn:hover{
+    background-color: rgb(163, 160, 160);
+}
+
+
+
+.themes{
+   
+    width: 150px;
+    height: 50px;
+   
+    font-weight: bold;
+    background-color: white;
+}
+
+.themes:hover{
+    background-color:rgb(173, 173, 173);
+}
+
+.andha{
+   
+    width: 100%;
+     height: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+
+.doit{
+   
+    color: rgb(25, 4, 106);
+   
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+}
+
+.seciii{
+  
+    font-weight: bolder;
+   
+    color: brown;
+}
+
+
+
+.glassgirl{
+   
+    width: 600px;
+    height: 300px;
+}
+
+.claim{
+    
+    width: 100%;
+    height:450px;
+    background-color: black;
+   
+}
+
+.thirdhead{
+   
+    color: white;
+  
+    left: 100px;
+    font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+.fontii{
+   
+    font-size: 20px;
+     
+   
+     color: cadetblue;
+
+}
+
+.iniii{
+   
+    max-width: 700px;
+   
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.domain{
+  
+    background-color:tomato;
+    color: white;
+  
+    width: 150px;
+    height: 50px;
+}
+
+.domain:hover{
+    background-color: rgb(172, 68, 68);
+}
+
+.earth{
+    background: url(./images/Free\ Vector\ _\ Blue\ globe\ digital\ grid\ technology\ corporate\ background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+    background-color: aquamarine;
+
+}
+
+.umiiiii{
+    
+    width: 100%;
+    height: 800px;
+}
+
+.hostt{
+  
+    font-size: 50px;
+   color:white;
+  
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+}
+
+.gooi{
+  
+    font-size: 20px;
+    
+    color: rgb(250, 2, 35);
+}
+
+.explore{
+ 
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+   
+    right: 400px;
+
+}
+
+.explore:hover{
+    background-color: rgb(170, 162, 162);
+}
+
+.iiii{
+  
+    width: 80px;
+ 
+    height: 80px;
+  
+}
+
+.card-title{
+   
+    top: 70px;
+    
+}
+
+.card-text{
+   
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.last{
+   
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+   
+}
+
+
+
+.final{
+    color: rgb(249, 86, 4);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    
+}
+
+
+
+.lasted{
+  
+    width: 100%;
+    height: fit-content;
+    background-color: blueviolet;
+}
+
+.dk{
+   
+    height: 80px;
+    font-weight:bolder;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.dk:hover{
+    background-color: gold;
+   
+}
+
+.rk{
+   
+    height: 80px;
+    top: 10px;
+    left: 390px;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 170px;
+    font-size: 25px;
+}
+
+.rk:hover{
+    background-color: gold;
+   
+}
+
+
+
