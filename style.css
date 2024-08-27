@@ -1,293 +1,345 @@
-
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    
-    
-}
-
+/* General Styles */
 body {
     font-family: 'Merriweather', serif;
-    line-height: 1.6;
-    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-.now, .nowtwo {
+h1, h2, h3, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
     width: 100%;
-    background-color: black;
-    padding: 20px;
-    text-align: center;
+    padding: 15px;
 }
 
+/* Navbar */
+#nav-div {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link i {
+    margin-right: 5px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* Hero Section */
 .firstheading {
-    color: rgb(15, 211, 169);
-    font-weight: 700;
-    font-size: 3rem; /* Use rem for relative font size */
-    text-align: right;
+    font-size: 48px;
+    font-weight: 900;
+    color: #333;
 }
-
 
 .para {
-    color: white;
-    font-family: 'Gill Sans', sans-serif;
-    margin: 20px 0;
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
 }
 
 .btnn {
-    color: black;
-    background-color: white;
-    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
     padding: 10px 20px;
     border: none;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .btnn:hover {
-    background-color: rgb(163, 160, 160);
+    background-color: #0056b3;
 }
 
+.nowtwo {
+    background-color: #343a40;
+    padding: 50px 15px;
+}
 
+.nowtwo h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.nowtwo h3 {
+    color: #ddd;
+    font-size: 24px;
+}
 
 .themes {
-    width: 150px;
-    background-color: #f8f9fa;
-    color: black;
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px 20px;
     border: none;
-    padding: 10px;
-    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .themes:hover {
-    background-color: #e2e6ea;
+    background-color: #e0a800;
 }
 
-.card {
-    background-color: rgb(115, 9, 237);
-    color: white;
-    border: none;
-    transition: transform 0.3s ease;
+/* Section: Do it all with WordPress.com */
+.doit {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.seciii {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text-align {
+    font-size: 24px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.text-align:hover {
+    color: #007bff;
+}
+
+.glassgirl {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Section: Claim your home on the web */
+.claim {
+    background-color: #fff;
+    padding: 50px 15px;
+}
+
+.thirdhead {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.fontii {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.form-floating {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    padding: 15px;
+    font-size: 18px;
 }
 
 .domain {
-    background-color: gold;
-    border: none;
-    color: black;
-    font-weight: bold;
+    background-color: #007bff;
+    color: white;
     padding: 10px 20px;
-    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .domain:hover {
-    background-color: darkgoldenrod;
+    background-color: #0056b3;
 }
 
-.andha{
-   
-    width: 100%;
-     height: fit-content;
-    background-color: rgb(255, 255, 255);
+/* Section: Host with the best */
+.earth {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 15px;
 }
 
-.doit{
-   
-    color: rgb(25, 4, 106);
-   
-    font-family: "Merriweather", serif;
-    font-weight: 700;
-}
-
-.seciii{
-  
-    font-weight: bolder;
-   
-    color: brown;
-}
-
-
-
-.glassgirl{
-   
-    width: 600px;
-    height: 300px;
-}
-
-.claim{
-    
-    width: 100%;
-    height:450px;
-    background-color: black;
-   
-}
-
-.thirdhead{
-   
-    color: white;
-  
-    left: 100px;
-    font-family: "PT Serif", serif;
-  font-weight: 700;
-}
-
-.fontii{
-   
-    font-size: 20px;
-     
-   
-     color: cadetblue;
-
-}
-
-.iniii{
-   
-    max-width: 700px;
-   
-    font-size: 50px;
-    border-radius: 10px;
-}
-
-.domain{
-  
-    background-color:tomato;
-    color: white;
-  
-    width: 150px;
-    height: 50px;
-}
-
-.domain:hover{
-    background-color: rgb(172, 68, 68);
-}
-
-.earth{
-    background: url(./images/Free\ Vector\ _\ Blue\ globe\ digital\ grid\ technology\ corporate\ background.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: fit-content;
-    background-color: aquamarine;
-
-}
-
-.umiiiii{
-    
-    width: 100%;
-    height: 800px;
-}
-
-.hostt{
-  
-    font-size: 50px;
-   color:white;
-  
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-}
-
-.gooi{
-  
-    font-size: 20px;
-    
-    color: rgb(250, 2, 35);
-}
-
-.explore{
- 
-    width: 150px;
-    height: 50px;
-    font-weight: bolder;
-   
-    right: 400px;
-
-}
-
-.explore:hover{
-    background-color: rgb(170, 162, 162);
-}
-
-.iiii{
-  
-    width: 80px;
- 
-    height: 80px;
-  
-}
-
-.card-title{
-   
-    top: 70px;
-    
-}
-
-.card-text{
-   
-    font-size: 15px;
+.hostt {
+    font-size: 36px;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.gooi {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.explore {
+    background-color: #ffc107;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore:hover {
+    background-color: #e0a800;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card img.iiii {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    color: gold;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    color: #ddd;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+.last {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.last img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.lasted {
+    background-color: #fff;
+    padding: 30px 15px;
+}
+
+.dk, .rk {
+    background-color: #007bff;
     color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-
-
-.last{
-   
-    width: 100%;
-    background-color: black;
-    height: fit-content;
-   
+.dk:hover, .rk:hover {
+    background-color: #0056b3;
 }
 
-
-
-.final{
-    color: rgb(249, 86, 4);
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
-    
+.rk {
+    background-color: #28a745;
 }
 
-
-
-.lasted{
-  
-    width: 100%;
-    height: fit-content;
-    background-color: blueviolet;
+.rk:hover {
+    background-color: #218838;
 }
 
-.dk{
-   
-    height: 80px;
-    font-weight:bolder;
-    border-radius: 10px;
-    font-size: 25px;
+img {
+    margin-right: 10px;
 }
 
-.dk:hover{
-    background-color: gold;
-   
+/* Media Queries */
+@media (max-width: 768px) {
+    .firstheading {
+        font-size: 36px;
+    }
+
+    .para {
+        font-size: 18px;
+    }
+
+    .nowtwo h1 {
+        font-size: 36px;
+    }
+
+    .nowtwo h3 {
+        font-size: 20px;
+    }
+
+    .doit {
+        font-size: 28px;
+    }
+
+    .seciii {
+        font-size: 18px;
+    }
+
+    .text-align {
+        font-size: 20px;
+    }
+
+    .thirdhead {
+        font-size: 28px;
+    }
+
+    .fontii {
+        font-size: 18px;
+    }
+
+    .hostt {
+        font-size: 28px;
+    }
+
+    .gooi {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
 }
 
-.rk{
-   
-    height: 80px;
-    top: 10px;
-    left: 390px;
-    font-weight: bolder;
-    border-radius: 10px;
-    width: 170px;
-    font-size: 25px;
+@media (max-width: 576px) {
+    .btnn {
+        width: 100%;
+    }
+
+    .themes, .domain, .explore, .dk, .rk {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .glassgirl {
+        margin-top: 20px;
+    }
 }
-
-.rk:hover{
-    background-color: gold;
-   
-}
-
-
-
